@@ -15,6 +15,7 @@
   width: 350px;
   height: 240px;
   transition: all 0.6s ease-in-out; 
+  position: absolute;
 }
 
 #lenasig:hover .lenaimg{
@@ -26,7 +27,6 @@
     width: 160px;
     height: 240px;
     position: absolute;
-    top: 13px;
     background: #6c818d;
     transform: scale(0.5);
     opacity: 0;
