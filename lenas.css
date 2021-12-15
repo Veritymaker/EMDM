@@ -1,0 +1,81 @@
+/**signature**/#lenasig {
+  width: 350px;
+  height: 240px;
+  margin: 0 auto;
+  outline: 4px double #6c818d;
+  border: 5px solid #0a0a0a;
+  outline-offset: -3px;
+  overflow: hidden;
+  transition: ease-in 0.6s;
+}
+
+.lenaimg {
+  width: 350px;
+  height: 240px;
+  transition: all 0.6s ease-in-out; 
+}
+
+#lenasig:hover .lenaimg{
+  transition: all 0.6s ease-in-out; 
+  filter: brightness(50%) grayscale(50%);
+}
+
+#lenasig .poppup {
+    width: 160px;
+    height: 240px;
+    position: absolute;
+  top: 13px;
+    background: #6c818d;
+    transform: scale(0.5);
+    opacity: 0;
+    transition: ease-in 0.6s;
+}
+
+#lenasig:hover .poppup {
+    transform: scale(1);
+    opacity: 0.5;
+    transition: ease-out 0.6s;
+}
+
+.lenatxt {
+  width: 150px;
+  font: 13px calibri;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 1px;
+  left: 5px;
+  top: 45px;   
+  color: #f5f0f0;    
+  line-height: 21px;
+  z-index: 2;
+transition: ease-in 0.6s;
+}
+
+.lenatxt span {
+    font: 15px 'Abril Fatface';
+      text-transform: uppercase;
+    display: block;
+    letter-spacing: 4px;
+    text-shadow: 2px 1px 0px #080808;
+}
+
+.lenatxt:before {
+width: 40px;
+  height: 0.5px;
+  background: #f5f0f0;
+  content: ' ';
+  display: block;
+margin-left: 55px;
+margin-bottom: 10px;
+}
+
+.lenatxt:after {
+  width: 40px;
+  height: 0.5px;
+  background: #f5f0f0;
+  content: ' ';
+  display: block;
+margin-left: 55px;
+margin-top: 10px;
+}
